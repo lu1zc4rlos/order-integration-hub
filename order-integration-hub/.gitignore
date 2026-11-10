@@ -1,0 +1,28 @@
+cat > .gitignore <<'EOF'
+# Build
+target/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.vscode/
+
+# Segredos e configurações locais (nunca versionar)
+.env
+.env.local
+application-local.properties
+application-local.yml
+application-dev.properties
+application-dev.yml
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+EOF
